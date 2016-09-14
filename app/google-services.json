@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "137347674836",
+    "firebase_url": "https://snupo-application-e4921.firebaseio.com",
+    "project_id": "snupo-application-e4921",
+    "storage_bucket": "snupo-application-e4921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137347674836:android:9ca6d073e5ababc1",
+        "android_client_info": {
+          "package_name": "org.snupo.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137347674836-an507hduhjbmfcl87hqvnq9e2250eu1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC7D8Y7Aysnoa0c6QAi_5aPIpZdIFQMiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

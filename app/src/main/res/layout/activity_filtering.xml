@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+        android:hint="SNUPO ID를 입력하세요"
+        />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="알림을 받을 게시판을 고르세요" />
+
+
+    <CheckBox
+        android:id="@+id/announcement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="공지사항" />
+
+
+    <CheckBox
+        android:id="@+id/cn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CN" />
+    <CheckBox
+        android:id="@+id/violin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1st Violin" />
+    <CheckBox
+        android:id="@+id/violin2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2nd Violin" />
+    <CheckBox
+        android:id="@+id/viola"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Viola" />
+    <CheckBox
+        android:id="@+id/cello"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cello" />
+    <CheckBox
+        android:id="@+id/bass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Double Bass" />
+    <CheckBox
+        android:id="@+id/flute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Flute" />
+    <CheckBox
+        android:id="@+id/oboe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Oboe/Fagott" />
+    <CheckBox
+        android:id="@+id/clarinet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Clarinet" />
+
+    <CheckBox
+        android:id="@+id/brass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Brass" />
+
+    <Button
+        android:text="저장"
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="돌아가기"
+        android:id="@+id/goback"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
