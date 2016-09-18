@@ -85,6 +85,10 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
                 return (user_id+"님이 내가 쓴 글에 댓글을 남겼어요.");
             case "MCC" :
                 return (user_id+"님이 내가 쓴 댓글에 댓글을 달았어요.");
+            case "TC" :
+                return (user_id+"님이 당신을 태그하였습니다.");
+            case "TD" :
+                return (user_id+"님이 회원님을 태그하였습니다.");
         }
         return "오류가 발생하였습니다.";
     }
