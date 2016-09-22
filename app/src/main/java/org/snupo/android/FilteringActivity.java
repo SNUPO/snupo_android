@@ -61,13 +61,13 @@ public class FilteringActivity extends AppCompatActivity
         }
 
         //ID설정 로드
-        String text = SharedPreferenceUtil.getSharedString(this, "userid");
+        String text = SharedPreferenceUtil.getSharedString(getApplicationContext(), "userid");
         user_id.setText(text);
         //체크박스 설정 로드
         Boolean[] chk= new Boolean[11];
         for(int i=0; i<11; i++)
         {
-            chk[i] = SharedPreferenceUtil.getSharedBoolean(this, boardnames[i]);
+            chk[i] = SharedPreferenceUtil.getSharedBoolean(getApplicationContext(), boardnames[i]);
             boards[i].setChecked(chk[i]);
         }
 
@@ -90,6 +90,11 @@ public class FilteringActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                for(int i=0; i<11; i++)
+                {
+                    Log.i("filter", boardnames[i]);
+                    Log.i("Checked", SharedPreferenceUtil.getSharedBoolean(getApplicationContext(), boardnames[i]).toString());
+                }
                 finish();
             }
         });
@@ -105,15 +110,15 @@ public class FilteringActivity extends AppCompatActivity
             if(tcb == ncb)
             {
                 int position = (Integer)buttonView.getTag();
-                SharedPreferenceUtil.putSharedBoolean(this, boardnames[position], isChecked);
+                SharedPreferenceUtil.putSharedBoolean(getApplicationContext(), boardnames[position], isChecked);
             }
         }
     }
 
     public void sendToDatabase()
     {
-        String user_id = SharedPreferenceUtil.getSharedString(this, "userid");
-        String token = SharedPreferenceUtil.getSharedString(this, "token");
+        String user_id = SharedPreferenceUtil.getSharedString(getApplicationContext(), "userid");
+        String token = SharedPreferenceUtil.getSharedString(getApplicationContext(), "token");
 
         final String strurl = "https://www.snupo.org/?module=push_notification&act" +
                 "=insertClient&user_id="+user_id+"&token=" + token;

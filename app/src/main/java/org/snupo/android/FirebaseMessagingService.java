@@ -26,11 +26,11 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
     // [START receive_message]
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
-    //    Log.i("recieved data", remoteMessage.toString());
+
 
 
         JSONObject object = new JSONObject(remoteMessage.getData());
-
+		Log.i("recieved data", object.toString());
      //   Log.i("JSON_OBJECT", object.toString());
         try
         {
@@ -45,24 +45,23 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
 
     private void jsonParser(JSONObject received) throws JSONException {
         String title = received.getString("title");
-     //   Log.i("title", title);
+        Log.i("title", title);
         String user_id = received.getString("user_name");
-    //    Log.i("user_id", user_id);
+        Log.i("user_id", user_id);
         String event_type = received.getString("event_type");
-     //   Log.i("eventtype", event_type);
+        Log.i("eventtype", event_type);
         String mid= received.getString("mid");
-    //    Log.i("mid", mid);
+        Log.i("mid", mid);
         String document_srl = received.getString("document_srl");
-     //   Log.i("document_srl", document_srl);
+        Log.i("document_srl", document_srl);
         String comment_srl = "";
-
-    //    Log.i("comment_srl", comment_srl);
+        Log.i("comment_srl", comment_srl);
         String message = getMessage(user_id,mid, title,event_type);
 
         if(event_type.equals("ND"))
         {
 
-            if(SharedPreferenceUtil.getSharedBoolean(this, mid))
+            if(SharedPreferenceUtil.getSharedBoolean(getApplicationContext(), mid))
                 sendPushNotification(user_id, document_srl, comment_srl, message);
             else
                 return;
@@ -73,6 +72,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
             sendPushNotification(user_id, document_srl, comment_srl,message);
         }
 
+		return;
     }
 
     private String getMessage (String user_id, String mid, String title, String event_type) { //Message Context @JaeDong
@@ -86,7 +86,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
             case "MCC" :
                 return (user_id+"님이 내가 쓴 댓글에 댓글을 달았어요.");
             case "TC" :
-                return (user_id+"님이 당신을 태그하였습니다.");
+                return (user_id+"님이 회원님을 태그하였습니다.");
             case "TD" :
                 return (user_id+"님이 회원님을 태그하였습니다.");
         }
@@ -133,9 +133,9 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
      //   Log.i(TAG, "message: " + user_id);
 
         Intent intent = new Intent(this, MainActivity.class);
-        SharedPreferenceUtil.putSharedBoolean(this, "first", false);
-        SharedPreferenceUtil.putSharedString(this, "document_srl", document_srl);
-        SharedPreferenceUtil.putSharedString(this, "comment_srl", comment_srl);
+        SharedPreferenceUtil.putSharedBoolean(getApplicationContext(), "first", false);
+        SharedPreferenceUtil.putSharedString(getApplicationContext(), "document_srl", document_srl);
+        SharedPreferenceUtil.putSharedString(getApplicationContext(), "comment_srl", comment_srl);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 , intent,

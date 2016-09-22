@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_679ebd77c2554792cce35e0052ed8052ce574470\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="55ae8ec74eaf18b72fe980ab41908949dc0d582e">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6159aa052d5708398638d6c7c9bc9f1f6c3bcbe0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_447dea6596bd47b2577b230bb142ab5daaab44ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_c7071eaaae362ca29d04e9408d706758dd11dd93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7fc6f99f6f20b19d9a683582c95dc1f6f902a467">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cbfe95a45060a4f1f24bf7d07e9ab229f4a5defd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_6c1c10cc606c27ed0695ec7fff32e9a8ea20e0b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_48fd05651188437c8605a2a8736b5aae704c145d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_372a7d5df7ce4635f246915baf05c2dceeab9c43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_e06f04bc3ab6fc7096dacb34a7c4e1c03e8ae163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_621971693dcfd2caedae6c87628fcb8069d2638e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e3b6543fd1bfc7829f84b54966f8df8a0d4c21c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_55316d26279f906fcd0951e979524c89067dbe32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_021303b7b101dfb9db152783453fde3507793315\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6911d2ac5c3f6efe4a49b1a724d377593ce2c06c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_b12af85fc0ead3838d09d61234ad88428ffffbae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_d8abe332d652b13fff221561fceffacf0c63aaa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_0c3d1410ddd784f46bec9cd79f666b4eccd19da2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_957bb5ddb4aa7fb58262e4a29ec4158866e2918a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_fa51a086b7e86115a2459d175eaf043ef91ab587\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_c40aaff913c23bbd0150b1d263f31549619f8e6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_16dca5ad4f7dd3ba6056f0046c08cc996a23df8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_e4f6f077875cf6c0adccf97f25779779e8d17b46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_3ac2f35ca55f90b7f3e2d0fdd9c7718488daf33c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\minim\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_799b87a1e23f5c8030ade114226a33cb5daa6df8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_402f63b2f62737bcd903babe28d398182a570ef3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="E:\minim\AndroidStudioProjects\snupo_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_47b9b43c8ef0f32f195acd4181f87550cb6b5946\classes.dex" />
+    </item>
+
+</items>
