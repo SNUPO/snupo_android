@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -30,20 +31,23 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+		//getSupportActionBar().hide();
+
+
 
         String directurl="https://www.snupo.org/";
-        Boolean first =SharedPreferenceUtil.getSharedBoolean(this, "first");
+        Boolean first =SharedPreferenceUtil.getSharedBoolean(getApplicationContext(), "first");
         Log.i("first", first.toString());
         if (first==false)
         {
-            String document_srl = SharedPreferenceUtil.getSharedString(this, "document_srl");
-            String comment_srl = SharedPreferenceUtil.getSharedString(this, "comment_srl");
+            String document_srl = SharedPreferenceUtil.getSharedString(getApplicationContext(), "document_srl");
+            String comment_srl = SharedPreferenceUtil.getSharedString(getApplicationContext(), "comment_srl");
             if (document_srl != null)
                 directurl = directurl + document_srl;
             if (comment_srl != null)
                 directurl = directurl + "#comment-" + comment_srl;
         }
-        SharedPreferenceUtil.putSharedBoolean(this, "fisrt", true);
+        SharedPreferenceUtil.putSharedBoolean(getApplicationContext(), "first", true);
         // Log.i("wdocument_srl", document_srl);
         // Log.i("wcomment_srl", comment_srl);
         Log.i("wurl", directurl);
@@ -52,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         mWebView.getSettings().setJavaScriptEnabled(true);       // 웹뷰에서 자바 스크립트 사용
         mWebView.getSettings().setBuiltInZoomControls(true);     // 멀티터치 줌 인/아웃 허용
         mWebView.getSettings().setSupportZoom(true);
+
+		mWebView.getSettings().setLoadWithOverviewMode(true);
+		mWebView.getSettings().setUseWideViewPort(true);
+
         mWebView.getSettings().setDisplayZoomControls(false);    // 확대/축소 버튼 제거
         mWebView.loadUrl(directurl);             // 웹뷰에서 불러올 URL 입력
         mWebView.setWebViewClient(new SnupoWebViewClient());
@@ -79,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

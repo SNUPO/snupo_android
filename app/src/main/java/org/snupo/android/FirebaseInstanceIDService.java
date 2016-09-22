@@ -32,7 +32,7 @@ public class FirebaseInstanceIDService extends FirebaseInstanceIdService {
         // Get updated InstanceID token.
         String token = FirebaseInstanceId.getInstance().getToken();
      //   Log.i("token", token);
-        SharedPreferenceUtil.putSharedString(this, "token", token);
+        SharedPreferenceUtil.putSharedString(getApplicationContext(), "token", token);
 
     }
 
