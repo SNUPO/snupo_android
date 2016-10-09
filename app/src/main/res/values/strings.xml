@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SNUPO</string>  <!-- App name 변경 완료 160914 @JaeDong -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">SNUPO</string>
+</resources>
